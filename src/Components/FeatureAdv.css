@@ -1,0 +1,99 @@
+/* Feature Adventure First */
+
+.feature__adv1 {
+  display: flex;
+  padding: 40px 0;
+}
+
+.adv1__img img {
+  margin: 0 50px;
+}
+
+.adv1__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 70px;
+}
+
+.adv1__info h1 {
+  color: #142b6f;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.adv1__info p {
+  color: #142b6f;
+  margin: 15px 0;
+}
+
+.adv1__info div li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.adv1__info div li a {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 18px;
+  font-weight: bold;
+  color: #142b6f;
+}
+
+/* Feature Adventure Second  and Third*/
+
+.feature__adv2,
+.feature__adv3 {
+  display: flex;
+  padding: 40px 0;
+}
+
+.adv2__img img,
+.adv3__img img {
+  margin: 0 50px;
+}
+
+.adv2__info,
+.adv3__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 70px;
+}
+
+.adv2__info h1,
+.adv3__info h1 {
+  color: #142b6f;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.adv2__info p,
+.adv3__info p {
+  color: #142b6f;
+  margin: 15px 0;
+}
+
+.adv2__info div li,
+.adv3__info div li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.adv2__info div li a {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 18px;
+  font-weight: bold;
+  color: #142b6f;
+}
+
+.adv3__list li {
+  color: #142b6f;
+}
+
+.adv3__list li img {
+  margin-right: 8px;
+}

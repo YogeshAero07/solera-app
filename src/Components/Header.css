@@ -1,0 +1,100 @@
+/* Header Style */
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.header__menu Button {
+  border: none;
+  text-transform: capitalize;
+  color: rgb(20, 43, 111);
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header__logo a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #142b6f;
+  font-weight: bold;
+}
+
+.header__text {
+  display: flex;
+  align-items: center;
+}
+
+.header__text a {
+  margin: 0 30px;
+  color: #142b6f;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Header Menu Style */
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20vw;
+  padding: 120px 0;
+  margin: 0 7vw;
+}
+
+.menu__list__one {
+  margin: 20px 0;
+}
+
+.menu__list__one p {
+  color: rgb(20, 43, 111);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu__list__one p:hover,
+.menu__list__two p:hover,
+.menu__account a:hover {
+  cursor: pointer;
+  background: yellow;
+}
+
+.menu__list__two {
+  margin: 20px 0;
+}
+
+.menu__list__two p {
+  color: #142b6f;
+  font-size: 18px;
+}
+
+.menu__account a {
+  text-decoration: none;
+  display: flex;
+  color: #142b6f;
+  font-size: 18px;
+}
+
+.menu__account a span {
+  margin: 0 10px;
+}
+
+@media (max-width: 720px) {
+  .menu__list {
+    width: 100vw;
+    height: 100vh;
+  }
+  .header__text a {
+    display: none;
+  }
+  .header__container {
+    padding: 20px 12px;
+  }
+}
